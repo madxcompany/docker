@@ -1,5 +1,5 @@
 FROM ruby:2.6.5
-MAINTAINER JoungSik(joungsik@madx.company)
+MAINTAINER Cody(tjstlr2010@gmail.com)
 
 # Install dependencies
 RUN apt-get update -qq && apt-get install -y build-essential libpq-dev nodejs
